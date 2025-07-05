@@ -15,4 +15,7 @@ Published on: 2025-07-05
 Welcome to my new blog! I'm excited to share my journey as I dive into web development and explore the world of Astro. This marks the beginning of what I hope will be a regular series of posts documenting my learning process, discoveries, and the projects I'm working on.
 
 I've always believed in learning in public - sharing both the successes and the struggles that come with picking up new technologies. Through this blog, I'll be chronicling my experiences, the challenges I face, and the solutions I discover along the way.
+
 # The Making Of This Website
+
+I played around with a bunch of different tools and frameworks before settling on Astro. Astro was a good choice for me because it is very simple which is good for me because this is my first time making a website. It also has amazing documentation and a good community to go to for help.
