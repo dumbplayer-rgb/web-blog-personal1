@@ -1,3 +1,23 @@
+---
+const identity = {
+    firstName: "Max",
+    country: "Tomasik",
+    occupation: "Technical Writer",
+    hobbies: ["photography", "birdwatching", "baseball"],
+};
+
+const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Astro",
+    "Writing Docs",
+    "Python",
+    "C++",
+];
+---
+
 <html lang="en">
     <head> </head><a href="/">Home</a>
     <a href="/about/">About</a>
@@ -7,8 +27,27 @@
     <body>
         <h1>My Blog</h1>
         <h1>About Me</h1>
-        <h2>... and my new Astro site!</h2>
-
+        <p>Here are a few facts about me:</p>
+        <ul>
+            <li>My name is {identity.firstName}.</li>
+            <li>
+                I live in {identity.country} and I work as a {
+                    identity.occupation
+                }.
+            </li>
+            {
+                identity.hobbies.length >= 2 && (
+                    <li>
+                        Two of my hobbies are: {identity.hobbies[0]} and{" "}
+                        {identity.hobbies[1]}
+                    </li>
+                )
+            }
+        </ul>
+        <p>My skills are:</p>
+        <ul>
+            {skills.map((skill) => <li>{skill}</li>)}
+        </ul>
         <p>
             I am studying computer science, web development, design in 2d and 3d
             and programming in C++, Java and Python.

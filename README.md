@@ -1,7 +1,7 @@
 # My Personal Blog
 Welcome to my personal blog repository! This is where I share my thoughts, experiences, and insights on various topics that interest me.
 
-## About
+## About Me
 
 This blog is a space where I write about things that matter to me - sometimes technical, sometimes personal, sometimes just random musings. I don't have a strict posting schedule, but I try to share something when inspiration strikes or when I have something meaningful to contribute.
 
